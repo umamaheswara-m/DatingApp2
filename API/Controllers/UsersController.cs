@@ -25,6 +25,7 @@ public class UsersController(DataContext context) : ControllerBase
 
         if (user == null) return NotFound();
 
+        
         return user;
     }
 
